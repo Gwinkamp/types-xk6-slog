@@ -1,0 +1,14 @@
+{
+  "name": "@gwinkamp/types-xk6-slog",
+  "version": "1.0.1",
+  "type": "module",
+  "license": "MIT",
+  "author": "Gwinkamp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gwinkamp/types-xk6-slog.git"
+  },
+  "projects": [
+    "https://github.com/Gwinkamp/xk6-slog"
+  ]
+}

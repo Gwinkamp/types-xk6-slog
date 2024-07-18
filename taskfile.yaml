@@ -1,0 +1,12 @@
+version: "3"
+
+tasks:
+  build:
+    cmds:
+      - rm -rf ./dist
+      - mkdir ./dist
+      - cp -r ./slog ./dist/slog
+      - cp ./package.json ./dist/package.json
+      - cp ./README.md ./dist/README.md
+  publish:
+    cmd: npm publish ./dist --access public
